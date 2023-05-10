@@ -18,7 +18,7 @@
         <form action="" id="form">
 
             <label for="input-teste1">Digite seu CPF:</label>
-            <input type="text" class="input" placeholder="EX: 000.000.000-00" autocomplete="off" maxlength="14" autofocus oninput="value = value.replace(/[^0-9.+-/'*'()']/g, '')">
+            <input type="text" class="input" placeholder="EX: 000.000.000-00" autocomplete="off" maxlength="14" autofocus oninput="value = value.replace(/[^0-9.-]/g, '')">
 
             <input class="button" type="submit" value="Enviar" id="send-form">
         </form>
